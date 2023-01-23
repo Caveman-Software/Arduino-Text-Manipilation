@@ -18,11 +18,14 @@ There are 2 programs used A Main program CenterPlace.ino and Setup.h
 
 CenterPlace.ino is the main program that runs and loads the Setup.h file with the added commands.
 
-// Setup.h
-#define dlay 2000
-#define COLS 20 // Adjust for Columns in your display
-#define ROWS 4  // Adjust for Rows in your display
-LiquidCrystal_I2C lcd(0x27, COLS, ROWS);
+        // Setup.h
+        // Sets the delay variable to 2 seconds
+        #define dlay 2000
+        // Sets the columns to 20 this must be changes to reflect you LCD
+        #define COLS 20 // Adjust for Columns in your display
+        // Sets the rows to 4 this may need to change if you have only 1 or 2 rows. 
+        #define ROWS 4  // Adjust for Rows in your display
+        LiquidCrystal_I2C lcd(0x27, COLS, ROWS);
 
         // resetFunc() Used to reset the Arduino from anywhere in the sketch.
         void (*resetFunc)(void) = 0;
