@@ -1,5 +1,5 @@
 # Arduino-Text-Manipilation
-Arduino with LiquidCrystal_I2C easy text manipulation
+Arduino with LiquidCrystal_I2C easy text manipulation using a 20 x 4 display
 
 ## Hookup:
 Wiring is simple:
