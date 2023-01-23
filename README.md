@@ -3,6 +3,7 @@ Arduino with LiquidCrystal_I2C easy text manipulation
 
 ## Hookup:
 Wiring is simple:
+
 Wire the Ground of the Arduino to ground on the LCD_I2C display
 
 Wire the VCC of the LCD to 5 volt on the Arduino
