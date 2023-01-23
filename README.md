@@ -15,6 +15,7 @@ Wire the SCL to A5 of the Arduino
 
 ## Programs:
 There are 2 programs used A Main program CenterPlace.ino and Setup.h
+
 CenterPlace.ino is the main program that runs and loads the Setup.h file with the added commands.
 
 // Setup.h
